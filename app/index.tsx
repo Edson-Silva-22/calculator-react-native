@@ -5,7 +5,7 @@ import homeStyles from '@/styles/Home'
 export default function HomeScreen() {
   
   // array contendo as opções do teclado da calculadora
-  const keyboard = ['( )', '%', '/', '7', '8', '9', 'X', '4', '5', '6', '-', '1', '2', '3', '+', '+/-', '0', '.']
+  const keyboard = ['( )', '%', '/', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '+/-', '0', '.']
 
   return (
     <View style={homeStyles.main}> 
